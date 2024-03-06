@@ -3,6 +3,10 @@ import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faFacebookMessenger, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
+/**
+ * NavBar component representing the navigation bar.
+ * @returns {JSX.Element} NavBar component.
+ */
 function NavBar() {
     // Instagram 
     const instagramUsername = 'sama.realstate';

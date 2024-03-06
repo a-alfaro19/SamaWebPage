@@ -29,3 +29,119 @@
   color: #fff0f0;
   font-size: 1.5rem;
 }
+
+
+/* Search Bar */
+.search-bar {
+  border: solid black;
+  border-left: none;
+}
+
+.search-bar::placeholder {
+  color: black;
+}
+
+.search-bar-span {
+  border: solid black;
+  border-right: none;
+  background-color: white;
+}
+
+.search-filters {
+  padding: 0 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
+
+.filter-label {
+  font-weight: 600;
+  color: #787373;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.search-bar-button {
+  background-color: transparent; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer; 
+}
+
+
+/* Type Selector */
+.type-selector {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.button-left {
+  border-radius: 5px 0 0 5px;
+  background-color: #003658;
+  border-color: #003658;
+  font-weight: 600;
+}
+
+.button-mid {
+  border-radius: 0;
+  background-color: #003658;
+  border-color: #003658;
+  font-weight: 600;
+}
+
+.button-right {
+  border-radius: 0 5px 5px 0;
+  background-color: #003658;
+  border-color: #003658;
+  font-weight: 600;
+}
+
+.selected-button {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+
+/* Counter */
+.three-btn-container {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin: 0;
+  min-width: fit-content;
+  max-width: fit-content;
+}
+
+
+/* Range Input */
+.range-input-rect {
+  background-color: #003658;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 12px;
+  width: 20rem;
+  margin: 0;
+}
+
+.range-input {
+  height: 14px;
+}
+
+
+/* Drop Button */
+.drop-button button {
+  width: 200px;
+  background-color: #003658;
+  border-color: #003658;
+  padding: auto;
+}
+
+.column {
+  max-width: fit-content;
+  min-width: fit-content;
+}
